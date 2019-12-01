@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    tools:context=".CsiActivity">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bCSI121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:onClick="CSI121"
+                android:text="CSI 121 Structured Programming Language" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI211"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 211 Object-Oriented Programming" />
+
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI217"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 217 Data Structure" />
+
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI219"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 219 Discrete Mathematics" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI221"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 221 Database Management Systems" />
+
+            <Button
+                android:id="@+id/button176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI227"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 227 Algorithms" />
+
+            <Button
+                android:id="@+id/button178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI229"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 229 Numerical Methods" />
+
+
+            <Button
+                android:id="@+id/button131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI233"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 233 Theory of Computing" />
+
+            <Button
+                android:id="@+id/button114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI309"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 309 Operating System Concepts" />
+
+            <Button
+                android:id="@+id/button115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI311"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 311 System Analysis and Design" />
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI321"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 321 Software Engineering" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI341"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSI 341 Artificial Intelligence" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSI411"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSI 411 Compiler" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

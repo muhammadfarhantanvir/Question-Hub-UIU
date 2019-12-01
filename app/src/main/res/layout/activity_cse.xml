@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    tools:context=".CseActivity">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bCSI121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="CSE113"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 113 Electrical Circuits" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="CSE123"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 123 Electronics" />
+
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE225"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 225 Digital Logic Design" />
+
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE313"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 313 Computer Architecture" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE315"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 315 Data Communication" />
+
+            <Button
+                android:id="@+id/button176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE323"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 323 Computer Networks" />
+
+            <Button
+                android:id="@+id/button178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE429"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="CSE 429 Digital System Design" />
+
+
+            <Button
+                android:id="@+id/button131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="CSE425"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CSE 425 Microprocessor, Microcontroller and Interfacing" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
