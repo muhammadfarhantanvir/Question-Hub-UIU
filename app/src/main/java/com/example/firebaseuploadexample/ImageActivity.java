@@ -2,7 +2,6 @@ package com.example.firebaseuploadexample;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.ContentResolver;
@@ -10,12 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 //import com.squareup.picasso.Picasso;
-
 import android.widget.Toast;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -34,6 +31,7 @@ public class ImageActivity extends AppCompatActivity
 
     private Button mButtonChooseImage;
     private Button mButtonUpload;
+    private TextView mTextViewShowUploads;
     private EditText mEditTextFileName;
     private ImageView mImageView;
     private ProgressBar mProgressBar;
@@ -82,8 +80,10 @@ public class ImageActivity extends AppCompatActivity
     }
 
     private void openFileChooser() {
+
+        //gallery theke image
         Intent intent = new Intent();
-        intent.setType("activity_image/*");
+        intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(intent, PICK_IMAGE_REQUEST);
     }

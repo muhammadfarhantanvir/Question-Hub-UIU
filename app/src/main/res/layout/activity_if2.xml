@@ -85,5 +85,17 @@
         android:textStyle="bold"
         android:text="upload your question" />
 
+    <Button
+        android:id="@+id/suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="suggestion" />
+
 
 </LinearLayout>

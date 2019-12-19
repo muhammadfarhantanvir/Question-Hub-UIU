@@ -10,7 +10,9 @@
     <Button
         android:id="@+id/button_choose_image"
         android:layout_width="wrap_content"
-        android:background="#008B8B"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:layout_height="wrap_content"
         android:text="Choose file" />
 
@@ -45,7 +47,9 @@
     <Button
         android:id="@+id/button_upload"
         android:layout_width="match_parent"
-        android:background="#6495ED"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

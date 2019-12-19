@@ -15,6 +15,7 @@ public class IF2Activity extends AppCompatActivity {
     Button option;
     Button other;
     Button upload1;
+    Button suggestion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,12 +77,23 @@ public class IF2Activity extends AppCompatActivity {
             }
         });
 
-        upload1 = findViewById(R.id.upload1);        //other button click >>> then go the other activity
+        upload1 = findViewById(R.id.upload1);        //upload question button click >>> then go the other activity
 
         upload1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(IF2Activity.this, ImageActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        suggestion = findViewById(R.id.suggestion);        //suggestion button click >>> then go the other activity
+
+        suggestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IF2Activity.this, OcrActivity.class);
                 startActivity(intent);
 
             }
